@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background: url('../img/banner.png');
+  background-size: cover;
+  height: 800px;
+  color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+svg {
+  fill: #ffffff;
+  height: 100%;
+}
+.logo {
+  display: inline-block;
+  width: 100%;
+  fill: #ffffff;
+  -webkit-filter: drop-shadow(0px 0px 20px #000);
+  filter: drop-shadow(0px 0px 20px #000);
+}
+header .logo {
+  height: 90px;
+  margin-top: 100px;
+}
+header .banner h3 {
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px #000;
+  color: #f27528;
+}
+header nav {
+  margin-top: 100px;
+}
+header nav .nav-link {
+  height: 50px;
+  width: 100%;
+  background-color:rgba(0,0,0,.5);
+}
+header nav .nav-link svg {
+  height: 40px;
+  width: 50px;
+  margin-top: 5px;
+}
+header nav .nav-link h3 {
+  margin: 0;
+  line-height: 50px;
+  text-transform: uppercase;
+  border-right: 5px solid #f27528;
+}
+header nav .nav-link:not(:first-child) {
+  margin-top: 20px;
+}
