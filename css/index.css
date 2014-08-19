@@ -47,3 +47,11 @@ section.contact {
     max-width: 100%;
     max-height: 100%;
 }
+
+div.social-icons {
+    margin-top: 20px;
+}
+
+div.social-icons > a {
+    margin: 10px;
+}
