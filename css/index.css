@@ -1,0 +1,28 @@
+/* TODO(matthewe|2014-08-18): For simplicity all styling will live here and
+    be labeled by the section it corresponds to. May want to look into splitting
+    this out. Add comments for sections as they are added. */
+
+/* COMMON / GENERAL STYLING */
+
+/* MAP DIVIDER STYLING */
+div#hacktx-map {
+    height: 300px;
+}
+
+/* SPONSORS STYLING */
+.sponsor {
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    text-align: center;
+}
+
+.sponsor img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* CONTACT STYLING */
