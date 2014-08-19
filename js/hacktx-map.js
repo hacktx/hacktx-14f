@@ -42,22 +42,18 @@ function initialize() {
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
         },
-        disableDefaultUI: true,
-        scaleControl: false,
-        zoomControl: false,
-        panControl: false,
+        disableDefaultUI: true
     };
     var map = new google.maps.Map(
         document.getElementById('hacktx-map'),
         mapOptions
     );
 
-    // TOOD(matthewe|2014-08-18): Adds a marker for the SAC, this should maybe
-    // be a custom marker or not need one? Probably a cool custom marker
     var marker = new google.maps.Marker({
         position: sacLatLng,
         map: map,
-        title: 'Hello World!'
+        // TODO(matthew|2014-08-18): Find a really neat custom marker
+        icon: '../img/custom_map_marker.png'
   });
     //Associate the styled map with the MapTypeId and set it to display.
     map.mapTypes.set('map_style', styledMap);
