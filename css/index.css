@@ -7,17 +7,77 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+div.section-title-text {
+    font-size: 5.0em;
+    color: #B2D441;
+}
+
 /* MAP DIVIDER STYLING */
 div#hacktx-map {
     height: 300px;
     margin: 20px 0px;
 }
 
-/* SPONSORS STYLING */
-section.sponsor-section {
-    margin: 40px 0px;
+/* DIVIDER STYLING */
+div.divider {
+    height: 300px;
+    width:100%;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;   
+    
+    letter-spacing: 1.5px;
 }
 
+.faq-divider {
+    background: url("../img/divider.jpg") no-repeat center center;
+    background-size: 100%;
+    margin-bottom: 30px;
+}
+
+
+.sponsor-divider {
+    background: url("../img/divider.jpg") no-repeat center center;
+    background-size: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.woh-divider {
+    background: url("../img/divider.jpg") no-repeat center center;
+    background-size: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* FAQ STYLING */
+.faq-item {
+    margin: 20px 0px;   
+}
+
+/* WOH STYLING */
+
+div.woh-section {
+    margin: 20px 0px;
+}
+
+div.woh-link {
+    margin-top: 20px;   
+}
+
+/* SPONSORS STYLING */
 .sponsor {
     padding: 20px 10px
 }
