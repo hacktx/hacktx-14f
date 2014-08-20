@@ -7,9 +7,68 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.green {
+    color: #B2D441; 
+}
+
 div.section-title-text {
     font-size: 5.0em;
     color: #B2D441;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background: url("../img/jumbotron.jpg") no-repeat center center;
+    background-size: 100%;
+    height: 100vh;
+    
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video-section {
+    background-color: #021420;
+    margin-top: -140px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.hackbig {
+    text-align: center;
+    font-weight: 700;
+    font-size: 6.2em;
+    color: white;
+}
+
+.video {
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.computer-screen {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 35px solid white;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-radius: 5px;
+    border-color: #ecf0f1;
+}
+
+div.computer-stand {
+    text-align: center;
+    opacity: .8;
+}
+
+div.computer-stand img {
+    width: 25%;
+    height: auto;
 }
 
 /* MAP DIVIDER STYLING */
