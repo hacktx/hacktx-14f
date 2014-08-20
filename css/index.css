@@ -51,7 +51,7 @@ div.section-title-text {
 }
 
 .computer-screen {
-    margin: 0px;
+    margin-top: 25px;
     padding: 0px;
     border-bottom: 35px solid white;
     border-top: 5px solid white;
@@ -64,6 +64,7 @@ div.section-title-text {
 div.computer-stand {
     text-align: center;
     opacity: .8;
+    margin-bottom: 25px;
 }
 
 div.computer-stand img {
@@ -71,6 +72,11 @@ div.computer-stand img {
     height: auto;
 }
 
+.about-hacktx {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
 /* MAP DIVIDER STYLING */
 div#hacktx-map {
     height: 300px;
