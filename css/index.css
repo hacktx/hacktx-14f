@@ -12,8 +12,10 @@ html, body {
 }
 
 div.section-title-text {
-    font-size: 5.0em;
-    color: #B2D441;
+    font-size: 7.0em;
+    color: white;
+    font-weight: bold;
+    padding-top: 197px;
 }
 
 /* JUMBOTRON */
@@ -65,6 +67,7 @@ div.computer-stand {
     text-align: center;
     opacity: .8;
     margin-bottom: 25px;
+    padding-top: 10px;
 }
 
 div.computer-stand img {
@@ -88,6 +91,7 @@ div.divider {
     height: 300px;
     width:100%;
 
+    /* CENTERS DIV IN DIV, CURRENTLY NOT USING */
     /* Firefox */
     display:-moz-box;
     -moz-box-pack:center;
@@ -101,7 +105,7 @@ div.divider {
     /* W3C */
     display:box;
     box-pack:center;
-    box-align:center;   
+    box-align:center;
     
     letter-spacing: 1.5px;
 }
