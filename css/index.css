@@ -21,7 +21,6 @@ html, body {
     margin: 0px 10px;   
 }
 
-
 div.section-title-text {
     font-size: 7.0em;
     color: white;
@@ -210,7 +209,18 @@ div.divider {
 
 /* FAQ STYLING */
 .faq-item {
-    margin: 20px 0px;   
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.faq-item > h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    color: #021420;
+}
+
+.faq-item > div {
+    color: #021420;
 }
 
 /* WOH STYLING */
