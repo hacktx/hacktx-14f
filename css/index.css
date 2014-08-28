@@ -7,6 +7,28 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:.25; }
+    50% { opacity:0; }
+    100% { opacity:.25; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:.25; }
+    50% { opacity:0; }
+    100% { opacity:.25; }
+}
+@-moz-keyframes blink{
+    0% { opacity:.25; }
+    50% { opacity:0; }
+    100% { opacity:.25; }
+}
+
 .green {
     color: #B2D441; 
 }

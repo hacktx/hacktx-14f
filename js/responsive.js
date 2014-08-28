@@ -9,8 +9,26 @@ $(document).ready(function() {
         
         // Fit the text to the appropriate size
         $(".section-title-text").fitText();
+        
+        if ($(window).width() < 860) {
+            $('.with-us').text(' BIG');
+            $('.hackbig').fitText(.7)
+        } else {
+            $('.with-us').text(' BIG WITH US');
+            $('.hackbig').css("font-size", "6.2em");
+        }
     };
     $(window).resize(resize);
-    
+        
     resize();
+    
+    
+    $(function(){
+        $(".typed").typed({
+            strings: ["HACK", "WIN", "PLAY"],
+            typeSpeed: 250,
+            backDelay: 3000,
+            startDelay: 300
+        });
+    });
 });
