@@ -11,6 +11,10 @@ html, body {
     color: #B2D441; 
 }
 
+.navy {
+    color: #dadada;
+}
+
 .social-icons-jumbo {
     position: absolute;
     top: 25px;
@@ -40,15 +44,8 @@ section {
 
 /* JUMBOTRON */
 .jumbotron {
-    background-color: #021420; 
-    background-size: 100%;
+    background: url("../img/jumbo.png") repeat center center;
     height: 100vh;
-    
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     
     /* CENTERS DIV IN DIV, CURRENTLY NOT USING */
     /* Firefox */
@@ -106,8 +103,9 @@ section {
 .jumbotron-container {
     padding: 40px 0px;   
 }
+
 .video-section {
-    background-color: #021420;
+    background-color: #27ae60;
     margin-top: -140px;
     color: white;
     letter-spacing: 1px;
@@ -185,9 +183,13 @@ div.divider {
 }
 
 .faq-divider {
-    background: url("../img/divider.jpg") no-repeat center center;
-    background-size: 100%;
+    background-color: #34495e;
+    background-image: url("../img/rocket.png");
     margin-bottom: 30px;
+    
+    background-repeat: no-repeat;
+    background-position: 50px 83px;
+    background-size: 133px;
 }
 
 
@@ -196,6 +198,14 @@ div.divider {
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 40px;
+    
+    background-color: #34495e;
+    background-image: url("../img/rocket.png");
+    margin-bottom: 30px;
+    
+    background-repeat: no-repeat;
+    background-position: 50px 83px;
+    background-size: 133px;
 }
 
 .woh-divider {
