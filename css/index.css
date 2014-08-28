@@ -40,7 +40,7 @@ section {
 
 /* JUMBOTRON */
 .jumbotron {
-    background: url("../img/divider.jpg") no-repeat center center;
+    background-color: #021420; 
     background-size: 100%;
     height: 100vh;
     
