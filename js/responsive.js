@@ -9,12 +9,12 @@ $(document).ready(function() {
         // Fit the text to the appropriate size
         $(".section-title-text").fitText();
         
-        if ($(window).width() < 860) {
+        if ($(window).width() < 970) {
             $('.with-us').text(' BIG');
-            $('.hackbig').fitText(.7)
+            $('.hackbig').fitText(.7, { maxFontSize: '99px' });
+            
         } else {
             $('.with-us').text(' BIG WITH US');
-            $('.hackbig').css("font-size", "6.2em");
         }
         
         var windowH = $(window).height();
