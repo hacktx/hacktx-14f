@@ -67,7 +67,6 @@ section {
 /* JUMBOTRON */
 .jumbotron {
     background: url("../img/jumbo.png") repeat center center;
-    height: 100vh;
     
     /* CENTERS DIV IN DIV, CURRENTLY NOT USING */
     /* Firefox */

@@ -16,6 +16,9 @@ $(document).ready(function() {
             $('.with-us').text(' BIG WITH US');
             $('.hackbig').css("font-size", "6.2em");
         }
+        
+        var windowH = $(window).height();
+        $('.jumbotron').css({'height':($(window).height())+'px'});
     };
     $(window).resize(resize);
         
