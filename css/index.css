@@ -3,6 +3,19 @@
     this out. Add comments for sections as they are added. */
 
 /* COMMON / GENERAL STYLING */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .video-section {
+        margin-top: -175px;
+    }
+
+    div.social-icons-jumbo {
+        display: none;
+    }
+}
+
+
 html, body {
     font-family: 'Open Sans', sans-serif;
 }
