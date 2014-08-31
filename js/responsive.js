@@ -17,6 +17,7 @@ $(document).ready(function() {
             $('.with-us').text(' BIG WITH US');
         }
         
+        $('.jumbo-date h2').fitText(1.5);
         var windowH = $(window).height();
         $('.jumbotron').css({'height':($(window).height())+'px'});
     };
