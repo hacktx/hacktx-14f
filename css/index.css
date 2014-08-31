@@ -7,7 +7,7 @@
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
     .video-section {
-        margin-top: -75px;
+        margin-top: -75px !important;
     }
 
     div.social-icons-jumbo {
