@@ -17,6 +17,10 @@ and (max-device-width : 480px) {
     .jumbo-date h2 {
         font-size: 15px;   
     }
+    
+    .what-is {
+        text-align: center;
+    }
 }
 
 
