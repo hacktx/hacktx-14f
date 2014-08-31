@@ -13,6 +13,10 @@ and (max-device-width : 480px) {
     div.social-icons-jumbo {
         display: none;
     }
+    
+    .jumbo-date h2 {
+        font-size: 20px;   
+    }
 }
 
 
