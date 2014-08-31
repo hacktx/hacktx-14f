@@ -114,8 +114,7 @@ section {
 .jumbo-date {
     color: white;
     text-align: center;
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
     opacity: .9;
 }
 
