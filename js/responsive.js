@@ -32,7 +32,7 @@ $(document).ready(function() {
     
     $(function(){
         $(".typed").typed({
-            strings: ["HACK", "WIN", "PLAY"],
+            strings: ["DREAM", "PLAY", "WIN", "CREATE", "HACK"],
             typeSpeed: 250,
             backDelay: 3000,
             startDelay: 300
