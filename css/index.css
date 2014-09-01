@@ -267,6 +267,7 @@ div.divider {
 .faq-item {
     margin-top: 25px;
     margin-bottom: 25px;
+    min-height: 190px;
 }
 
 .faq-item > h2 {
