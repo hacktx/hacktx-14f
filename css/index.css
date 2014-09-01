@@ -325,6 +325,11 @@ div.interested {
     overflow: auto;
 }
 
+div.organizer {
+    letter-spacing: 1px;
+    font-size: 1.1em;   
+}
+
 div.contact-div {
     padding: 25px 0px;   
 }
