@@ -3,9 +3,7 @@
     this out. Add comments for sections as they are added. */
 
 /* COMMON / GENERAL STYLING */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media all and (min-device-width : 320px) and (max-device-width : 480px) {
     .video-section {
         margin-top: -75px !important;
     }
@@ -23,9 +21,13 @@ and (max-device-width : 480px) {
     }
 }
 
-
 html, body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.logo-div {
+    width: 100%;   
+    text-align: center;
 }
 
 .typed-cursor{
@@ -104,15 +106,13 @@ section {
     display:box;
     box-pack:center;
     box-align:center;
+    
+    width: 100%;
 }
 
 .jumbo-info {
     /*  Adjust for the bottom banner  */
     margin-top: -10%;   
-}
-
-.logo {
-    max-width: 100%;   
 }
 
 .jumbo-date {
@@ -153,6 +153,7 @@ section {
     margin-top: -140px;
     color: white;
     letter-spacing: 1px;
+    position: relative;
 }
 
 .hackbig {
@@ -264,6 +265,7 @@ div.divider {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .faq-item > h2 {
     font-weight: bold;
     font-size: 1.3em;

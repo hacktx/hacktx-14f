@@ -7,7 +7,7 @@ $(document).ready(function() {
         $('.video').css({'height': cw * 3/4 + 'px'});
         
         // Fit the text to the appropriate size
-        $(".section-title-text").fitText();
+        $(".section-title-text").fitText(1.0, { minFontSize: '25px' });
         
         if ($(window).width() < 970) {
             $('.with-us').text(' BIG');
@@ -16,6 +16,11 @@ $(document).ready(function() {
         } else {
             $('.with-us').text(' BIG WITH US');
         }
+        
+        var windowWidth = $(window).width() * .8;
+        var logoDivWidth = $('.logo-div').width();
+        var toSet = windowWidth < logoDivWidth ? windowWidth : logoDivWidth;
+        $('.logo').css({'width': toSet+'px'});
         
         var windowH = $(window).height();
         $('.jumbotron').css({'height':($(window).height())+'px'});
