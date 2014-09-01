@@ -149,7 +149,7 @@ section {
 }
 
 .jumbotron-container {
-    padding: 40px 0px;   
+    padding: 100px 0px;   
 }
 
 .video-section {
@@ -232,7 +232,7 @@ div.divider {
 }
 
 .faq-divider {
-    background-color: #34495e;
+    background-color: #25387f;
     background-image: url("../img/rocket.png");
     margin-bottom: 30px;
     
@@ -247,7 +247,7 @@ div.divider {
     margin-bottom: 30px;
     margin-top: 40px;
     
-    background-color: #34495e;
+    background-color: #25387f;
     background-image: url("../img/bulb.png");
     margin-bottom: 30px;
     
@@ -300,9 +300,18 @@ div.interested {
     margin: 40px 0px;   
 }
 
+.sponsor {
+    height: 110px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px 0px;
+    line-height: 110px;
+}
+
 .sponsor img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 105px;   
 }
 
 /* CONTACT STYLING */
