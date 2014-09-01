@@ -236,29 +236,28 @@ div.divider {
     background-image: url("../img/rocket.png");
     margin-bottom: 30px;
     
-    background-repeat: no-repeat;
-    background-position: 50px 83px;
+    background-repeat: repeat;
+    background-position: left center;
     background-size: 133px;
 }
 
 
 .sponsor-divider {
-    background: url("../img/divider.jpg") no-repeat center center;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 40px;
     
     background-color: #34495e;
-    background-image: url("../img/rocket.png");
+    background-image: url("../img/bulb.png");
     margin-bottom: 30px;
     
-    background-repeat: no-repeat;
-    background-position: 50px 83px;
+    background-repeat: repeat;
+    background-position: right center;
     background-size: 133px;
 }
 
 .woh-divider {
-    background: url("../img/divider.jpg") no-repeat center center;
+    background: url("../img/divider.jpg") repeat;
     background-size: 100%;
     margin-bottom: 30px;
     margin-top: 30px;
