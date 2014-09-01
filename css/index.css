@@ -53,7 +53,7 @@ html, body {
 }
 
 .green {
-    color: #B2D441; 
+    color: #27ae60; 
 }
 
 .navy {
@@ -68,6 +68,10 @@ html, body {
 
 .social-icons-jumbo > a {
     margin: 0px 10px;   
+}
+
+.social-icons-jumbo img:hover {
+    opacity: .75;   
 }
 
 div.section-title-text {
@@ -139,9 +143,9 @@ section {
 }
 
 .button:hover {
-    background-color: #021420;
-    border-color: #021420;
-    color: rgba(0, 0, 0, 0);
+    background-color: white;
+    color: #021420 !important;
+    border-color: white;
 }
 
 .jumbotron-container {
@@ -321,6 +325,7 @@ div.contact-div {
     color: #B2D441;
     font-size: 1.6em;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 .organizer img {
@@ -330,6 +335,10 @@ div.contact-div {
 
 div.social-icons {
     margin-top: 20px;
+}
+
+div.social-icons img:hover {
+    opacity: .75;   
 }
 
 div.social-icons > a {
