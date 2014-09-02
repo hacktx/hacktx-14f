@@ -21,6 +21,11 @@
     }
 }
 
+.logo-div svg {
+    fill: white;
+    -webkit-filter: drop-shadow(10px 10px 20px black);
+}
+
 html, body {
     font-family: 'Open Sans', sans-serif;
 }
