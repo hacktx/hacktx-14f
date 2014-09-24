@@ -365,3 +365,10 @@ div.social-icons img:hover {
 div.social-icons > a {
     margin: 10px;
 }
+
+.ibm {
+    width: 100%;
+    text-align: center;
+    font-size: .7em;
+    opacity: .7;   
+}
