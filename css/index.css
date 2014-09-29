@@ -372,3 +372,11 @@ div.social-icons > a {
     font-size: .7em;
     opacity: .7;   
 }
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title img {
+    max-height: 200px;   
+}
