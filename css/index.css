@@ -37,28 +37,6 @@ html, body {
     text-align: center;
 }
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:.25; }
-    50% { opacity:0; }
-    100% { opacity:.25; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:.25; }
-    50% { opacity:0; }
-    100% { opacity:.25; }
-}
-@-moz-keyframes blink{
-    0% { opacity:.25; }
-    50% { opacity:0; }
-    100% { opacity:.25; }
-}
-
 .green {
     color: #27ae60; 
 }
@@ -93,10 +71,6 @@ section {
     padding-bottom: 75px;
 }
 
-/* SECTION COLORS */
-.faq-section {
-    background-color: white;
-}
 
 /* JUMBOTRON */
 .jumbotron {
@@ -119,11 +93,6 @@ section {
     box-align:center;
     
     width: 100%;
-}
-
-.jumbo-info {
-    /*  Adjust for the bottom banner  */
-    margin-top: -10%;   
 }
 
 .jumbo-date {
@@ -155,230 +124,11 @@ section {
     border-color: white;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
 .jumbotron-container {
     padding: 100px 0px;   
 }
 
-.video-section {
-    background-color: #27ae60;
-    margin-top: -140px;
-    color: white;
-    letter-spacing: 1px;
-    position: relative;
-}
-
-.hackbig {
-    text-align: center;
-    font-weight: 700;
-    font-size: 6.2em;
-    color: white;
-}
-
-.video {
-    width: 100%;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-}
-
-.computer-screen {
-    margin-top: 25px;
-    padding: 0px;
-    border: 10px solid white;
-    border-radius: 10px;
-    border-color: #ecf0f1;
-    width: 90%;
-    margin-left: 5%;
-}
-
-div.computer-stand {
-    text-align: center;
-    margin-bottom: 25px;
-    padding-top: 10px;
-}
-
-div.computer-stand img {
-    width: 100%;
-    height: auto;
-}
-
-.about-hacktx {
-    font-size: 1.2em;
-    margin-bottom: 50px;
-    margin-top: 10px;
-}
-/* MAP DIVIDER STYLING */
-div#hacktx-map {
-    height: 300px;
-    margin: 20px 0px;
-}
-
-/* DIVIDER STYLING */
-div.divider {
-    height: 275px;
-    width:100%;
-
-    /* CENTERS DIV IN DIV, CURRENTLY NOT USING */
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-    
-    letter-spacing: 1.5px;
-    margin-bottom: 75px;
-}
-
-.faq-divider {
-    background-color: #25387f;
-    background-image: url("../img/rocket.png");
-    margin-bottom: 30px;
-    
-    background-repeat: repeat;
-    background-position: left center;
-    background-size: 133px;
-}
-
-
-.sponsor-divider {
-    background-size: 100%;
-    margin-bottom: 30px;
-    margin-top: 40px;
-    
-    background-color: #25387f;
-    background-image: url("../img/bulb.png");
-    margin-bottom: 30px;
-    
-    background-repeat: repeat;
-    background-position: right center;
-    background-size: 133px;
-}
-
-.woh-divider {
-    background: url("../img/divider.jpg") repeat;
-    background-size: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-/* FAQ STYLING */
-.faq-item {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    min-height: 190px;
-}
-
-.faq-item > h2 {
-    font-weight: bold;
-    font-size: 1.3em;
-    letter-spacing: 1px;
-    color: #021420;
-}
-
-.faq-item > div {
-    color: #021420;
-}
-
-/* WOH STYLING */
-
-div.woh-section {
-    margin: 20px 0px;
-}
-
-div.woh-link {
-    margin-top: 20px;   
-}
-
-/* SPONSORS STYLING */
-.sponsor {
-    padding: 20px 10px
-}
-
-div.interested {
-    text-align: center;
-    margin: 40px 0px;   
-}
-
-.sponsor {
-    height: 110px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    margin: 20px 0px;
-    line-height: 110px;
-}
-
-.sponsor img {
-    max-width: 100%;
-    max-height: 105px;   
-}
-
-/* CONTACT STYLING */
-.contact-section {
-    background-color: #25387f;
-    padding: 20px;
-    color: white; /* TODO(matthewe|2014-08-18): An offwhite may look best on this */
-    font-size: 1.1em;
-    letter-spacing: .3px;
-    line-height: 24px;
-    overflow: auto;
-}
-
-div.organizer {
-    letter-spacing: 1px;
-    font-size: 1.1em;   
-}
-
-div.contact-div {
-    padding: 25px 0px;   
-}
-
-.contact-heading {
-    color: #27ae60;
-    font-size: 1.6em;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
-
-.organizer img {
-    max-width: 100%;
-    max-height: 200px;
-}
-
-div.social-icons {
-    margin-top: 20px;
-}
-
-div.social-icons img:hover {
-    opacity: .75;   
-}
-
-div.social-icons > a {
-    margin: 10px;
-}
-
-.ibm {
-    width: 100%;
-    text-align: center;
-    font-size: .7em;
-    opacity: .7;   
-}
-.title {
-    width: 100%;
-    text-align: center;
-}
-
-.title img {
-    max-height: 200px; 
-    margin-left: 4%;
-    max-width: 92%;
-}
